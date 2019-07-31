@@ -18,7 +18,7 @@ Tools used:
 - Windows IoT Core Packages (ARM)
 - NXP iMX.6 BSP
 
-Direct lab links
+## Direct lab links
 - [Lab 1 - Create a basic image](Labs\Lab1.md)
 - [Lab 2 - Deploying an image to the device](Labs\Lab2.md)
 - [Lab 3 - Customizing your image](Labs\Lab3.md)

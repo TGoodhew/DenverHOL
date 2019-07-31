@@ -23,3 +23,8 @@ The easiest way to do this is to use the Windows IoT Core Dashboard (yop can do 
 5. Right click on the device and select the `Device Portal`. You'll be prompted to enter a user name and password. The user is `administrator` and the password is what you set earlier.
 
 6. Explorer the device in the portal and when ready move to lab 3.
+
+### Direct lab links
+- [Lab 1 - Create a basic image](Labs\Lab1.md)
+- [Lab 2 - Deploying an image to the device](Labs\Lab2.md)
+- [Lab 3 - Customizing your image](Labs\Lab3.md)

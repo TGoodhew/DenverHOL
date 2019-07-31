@@ -129,3 +129,8 @@ New-IoTFFUImage ProductB Test -Verbose
 ```
 
 Now that the image has been rebuilt without errors we're ready to bring everything together and deploy the image to the device using the same steps as in lab 2.
+
+### Direct lab links
+- [Lab 1 - Create a basic image](Labs\Lab1.md)
+- [Lab 2 - Deploying an image to the device](Labs\Lab2.md)
+- [Lab 3 - Customizing your image](Labs\Lab3.md)
