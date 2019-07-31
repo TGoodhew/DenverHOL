@@ -1,4 +1,4 @@
-# Act 2019 Hand-on-Lab
+# Act 2019 Hands-on-Lab
 
 This lab provides an overview of how to build a custom device image using Windows IoT Core.
 
