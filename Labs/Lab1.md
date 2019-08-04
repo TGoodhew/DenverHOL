@@ -104,6 +104,6 @@ To make running these commands easier, we'll install and use the IoT Core shell,
 We now have an image that we can flash to an SD Card and boot on our iMX6 board. In the next lab we'll do that.
 
 ### Direct lab links
-- [Lab 1 - Create a basic image](Labs\Lab1.md)
-- [Lab 2 - Deploying an image to the device](Labs\Lab2.md)
-- [Lab 3 - Customizing your image](Labs\Lab3.md)
+- [Lab 1 - Create a basic image](https://github.com/TGoodhew/DenverHOL/blob/master/Labs/Lab1.md)
+- [Lab 2 - Deploying an image to the device](https://github.com/TGoodhew/DenverHOL/blob/master/Labs/Lab2.md)
+- [Lab 3 - Customizing your image](https://github.com/TGoodhew/DenverHOL/blob/master/Labs/Lab3.md)
