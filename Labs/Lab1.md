@@ -47,7 +47,7 @@ To make running these commands easier, we'll install and use the IoT Core shell,
    Import the bsp using Import-IoTBSP:
 
    ```powershell
-   Import-IoTBSP HummingBoardEdge_iMX6Q_2GB C:\HOLFirmware\imx-iotcore\BSP\
+   Import-IoTBSP HummingBoardEdge_iMX6Q_2GB C:\imx-iotcore\BSP\
    ```
 
    >NOTE: For more information see [Window 10 IoT Core and NXP i.MX SoCs](https://docs.microsoft.com/windows/iot-core/learn-about-hardware/iotnxp) for information on the NXP BSP access and Ecosystem resources.
