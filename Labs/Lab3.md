@@ -1,6 +1,6 @@
 # Lab 3 - Customizing your image
 
-One of the benefits of the Windows IoT Core image creation process is that ypou can easily create a number of different products based on the same core image and board support package. In this case we're going to create a new product based on the same setup as our original product.
+One of the benefits of the Windows IoT Core image creation process is that you can easily create a number of different products based on the same core image and board support package. In this case we're going to create a new product based on the same setup as our original product.
 
 ## Supported Application Types
 
