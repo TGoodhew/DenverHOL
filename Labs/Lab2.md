@@ -10,7 +10,7 @@ The easiest way to do this is to use the Windows IoT Core Dashboard (yop can do 
 
 ![Windows IoT Core Dashboard](coredashboard1.png)
 
-2. Select `Setup a new device` and then select `NXP` and then the FFU from LAB 1(`todo: Replace with on disk location`). Set the name and administrator password as you wish and click install.
+2. Select `Setup a new device` and then select `NXP` and then the FFU from LAB 1(`e.g.C:\MyWorkspace\Build\arm\ProductA\Test`). Set the name and administrator password as you wish and click install.
 
 ![Setup new device](coredashboard2.png)
 
