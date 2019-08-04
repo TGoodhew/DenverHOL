@@ -49,7 +49,7 @@ Additional information regarding creating a background app service as well as co
 
 ## Our appx package
 
-Universal Windows Platform (UWP) applications can run on both Windows, Windows IoT Enterprise and Windows IoT COre. Building a UWP applicatrion is outside of the scope of this lab so we'll be using a pre-built UWP App. This app is similar to the default application that runs on the device but has been annotated so you can see the difference.
+Universal Windows Platform (UWP) applications can run on both Windows, Windows IoT Enterprise and Windows IoT COre. Building a UWP application is outside of the scope of this lab so we'll be using a pre-built UWP App. This app is similar to the default application that runs on the device but has been annotated so you can see the difference.
 
 We'll start the process of including it in our OS Image by using the AppX package that is created by Visual Studio.
 
