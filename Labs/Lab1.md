@@ -20,7 +20,7 @@ To make running these commands easier, we'll install and use the IoT Core shell,
 
    This will load the PowerShell module and also check the versions of the ADK, IoT Core kit. This will also check for the test certificates in the certificate store and if not present, install them automatically.
 
-2. In the IoTCorePShell, create a new workspace say C:\MyWorkspace with an OEM name Contoso for the architecture arm using New-IoTWorkspace
+2. In the IoTCorePShell, create a new workspace say C:\MyWorkspace with an OEM name HOLLab for the architecture arm using New-IoTWorkspace
 
    ```powershell
    New-IoTWorkspace C:\MyWorkspace HOLLab arm
