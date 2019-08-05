@@ -62,16 +62,16 @@ The first step is to repackage the Appx file, which will allow you to customize 
 2. Create the package for your Appx by using `New-IoTAppxPackage`. Replace the file path location and package name with your Appx package. For this lab, the command is as follows:
 
 ```powershell
-Add-IoTAppxPackage    "C:\DefaultApp\IoTCoreDefaultApp_1.2.0.0_ARM_Debug_Test\IoTCoreDefaultApp_1.2.0.0_ARM_Debug_Test.appx" fga Appx.MyUWPApp
+Add-IoTAppxPackage "C:\DefaultApp\IoTCoreDefaultApp_1.2.0.0_ARM_Debug_Test\IoTCoreDefaultApp_1.2.0.0_ARM_Debug.Appx" fga Appx.MyUWPApp
 ```
 
 >The fga parameter indicates the Appx file is a foreground application. If you specify your package as a background application (with the bga parameter) and have no other foreground applications in the image, the system will get stuck when booting up (displays a spinner indefinitely).
 
-This creates a new folder at `C:\MyWorkspace\Source-<arch>\Packages\Appx.MyUWPApp`, copies the appx files and its dependencies and generates a `customizations.xml` file as well as a package xml file that is used to build the package.
+This creates a new folder at `C:\MyWorkspace\Source-arm\Packages\Appx.MyUWPApp`, copies the appx files and its dependencies and generates a `customizations.xml` file as well as a package xml file that is used to build the package.
 
 Be aware that if your Appx has dependencies you will need the Dependencies subdirectory to be present in the same location as your Appx when you run this command. Failure to include this will result in errors when you build your FFU image.
 
-This also adds a FeatureID APPX_MYUWPAPP to the `C:\MyWorkspace\Source-<arch>\Packages\OEMFM.xml` file.
+This also adds a FeatureID APPX_MYUWPAPP to the `C:\MyWorkspace\Source-arm\Packages\OEMFM.xml` file.
 
 3. From the IoT Core Shell Environment, you can now build the package into a .CAB fileusing `New-IoTCabPackage`.
 
@@ -79,7 +79,7 @@ This also adds a FeatureID APPX_MYUWPAPP to the `C:\MyWorkspace\Source-<arch>\Pa
 New-IoTCabPackage Appx.MyUWPApp
 ```
 
-This will build the package into a .CAB file under `C:\MyWorkspace\Build\<arch>\pkgs\<oemname>.Appx.MyUWPApp.cab`.
+This will build the package into a .CAB file under `C:\MyWorkspace\Build\arm\pkgs\HOLLab.Appx.MyUWPApp.cab`.
 
 ## Create a new product
 
