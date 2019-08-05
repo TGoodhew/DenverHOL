@@ -19,8 +19,6 @@ To make running these commands easier, we'll install and use the IoT Core shell,
 1. In Windows Explorer, go to the folder where you installed the IoT Core ADK Add-Ons, for example, `C:\IoT-ADK-AddonKit`, and open IoTCorePShell.cmd. It should prompt you to run as an administrator.
 
    This will load the PowerShell module and also check the versions of the ADK, IoT Core kit. This will also check for the test certificates in the certificate store and if not present, install them automatically.
-   
-   Troubleshooting: Error: "The system cannot find the path specified". If you get this, right-click the icon and modify the path in "Target" to the location you've chosen to install the tools.
 
 2. In the IoTCorePShell, create a new workspace say C:\MyWorkspace with an OEM name Contoso for the architecture arm using New-IoTWorkspace
 
